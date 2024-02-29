@@ -1,0 +1,2 @@
+2023-11-20 19:41:57,973 dumbo_node.py [line:65] run INFO node 3's starts to run consensus on process id 30151 
+2023-11-20 19:41:57,975 dumbo.py [line:326] run_bft INFO Node 3 starts to run at time:1700480517.975714 

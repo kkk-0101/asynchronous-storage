@@ -1,0 +1,2 @@
+2023-11-20 19:41:56,972 socket_server.py [line:70] run INFO node id 2 is running on pid 30161 
+2023-11-20 19:41:56,972 socket_server.py [line:35] _listen_and_recv_forever INFO node 2's socket server starts to listen ingoing connections on process id 30161 
