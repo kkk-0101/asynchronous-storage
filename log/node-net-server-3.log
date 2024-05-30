@@ -1,2 +1,20 @@
 2023-11-20 19:41:56,972 socket_server.py [line:70] run INFO node id 3 is running on pid 30160 
 2023-11-20 19:41:56,972 socket_server.py [line:35] _listen_and_recv_forever INFO node 3's socket server starts to listen ingoing connections on process id 30160 
+2024-05-30 13:08:27,902 socket_server.py [line:70] run INFO node id 3 is running on pid 6386 
+2024-05-30 13:08:27,902 socket_server.py [line:35] _listen_and_recv_forever INFO node 3's socket server starts to listen ingoing connections on process id 6386 
+2024-05-30 13:19:43,203 socket_server.py [line:70] run INFO node id 3 is running on pid 11857 
+2024-05-30 13:19:43,204 socket_server.py [line:35] _listen_and_recv_forever INFO node 3's socket server starts to listen ingoing connections on process id 11857 
+2024-05-30 13:20:52,539 socket_server.py [line:70] run INFO node id 3 is running on pid 11917 
+2024-05-30 13:20:52,539 socket_server.py [line:35] _listen_and_recv_forever INFO node 3's socket server starts to listen ingoing connections on process id 11917 
+2024-05-30 13:32:09,044 socket_server.py [line:70] run INFO node id 3 is running on pid 12259 
+2024-05-30 13:32:09,045 socket_server.py [line:35] _listen_and_recv_forever INFO node 3's socket server starts to listen ingoing connections on process id 12259 
+2024-05-30 13:35:15,182 socket_server.py [line:70] run INFO node id 3 is running on pid 12344 
+2024-05-30 13:35:15,182 socket_server.py [line:35] _listen_and_recv_forever INFO node 3's socket server starts to listen ingoing connections on process id 12344 
+2024-05-30 13:35:22,889 socket_server.py [line:70] run INFO node id 3 is running on pid 12366 
+2024-05-30 13:35:22,889 socket_server.py [line:35] _listen_and_recv_forever INFO node 3's socket server starts to listen ingoing connections on process id 12366 
+2024-05-30 13:35:24,140 socket_server.py [line:70] run INFO node id 3 is running on pid 12393 
+2024-05-30 13:35:24,141 socket_server.py [line:35] _listen_and_recv_forever INFO node 3's socket server starts to listen ingoing connections on process id 12393 
+2024-05-30 13:35:36,869 socket_server.py [line:70] run INFO node id 3 is running on pid 12419 
+2024-05-30 13:35:36,869 socket_server.py [line:35] _listen_and_recv_forever INFO node 3's socket server starts to listen ingoing connections on process id 12419 
+2024-05-30 13:36:28,983 socket_server.py [line:70] run INFO node id 3 is running on pid 12490 
+2024-05-30 13:36:28,983 socket_server.py [line:35] _listen_and_recv_forever INFO node 3's socket server starts to listen ingoing connections on process id 12490 

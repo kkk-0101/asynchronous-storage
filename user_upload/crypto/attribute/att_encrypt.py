@@ -1,6 +1,6 @@
 from Crypto import Random
 from Crypto.Cipher import AES
-from user_upload.crypto.attribute.ac17 import AC17CPABE
+from crypto.attribute.ac17 import AC17CPABE
 from charm.toolbox.pairinggroup import PairingGroup, GT
 import pickle
 

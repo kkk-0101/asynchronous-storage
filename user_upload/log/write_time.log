@@ -1,1 +1,13 @@
 2024-01-14 16:50:33,054 write_send.py [line:75] main INFO The encryption time of 1 data is 0.021466970443725586 
+2024-05-30 13:11:37,026 write_send.py [line:75] main INFO The encryption time of 1 data is 0.25227808952331543 
+2024-05-30 13:11:38,406 write_send.py [line:96] main INFO 1 pieces of data are sent in 0.0007512569427490234 
+2024-05-30 13:23:01,366 write_send.py [line:75] main INFO The encryption time of 1 data is 0.24621176719665527 
+2024-05-30 13:23:02,811 write_send.py [line:96] main INFO 1 pieces of data are sent in 0.0007998943328857422 
+2024-05-30 13:30:10,078 write_send.py [line:75] main INFO The encryption time of 1 data is 0.2464604377746582 
+2024-05-30 13:30:10,816 write_send.py [line:96] main INFO 1 pieces of data are sent in 0.0008647441864013672 
+2024-05-30 13:32:28,189 write_send.py [line:75] main INFO The encryption time of 1 data is 0.26159143447875977 
+2024-05-30 13:32:29,619 write_send.py [line:96] main INFO 1 pieces of data are sent in 0.0006227493286132812 
+2024-05-30 13:35:46,465 write_send.py [line:75] main INFO The encryption time of 1 data is 0.24712872505187988 
+2024-05-30 13:35:47,594 write_send.py [line:96] main INFO 1 pieces of data are sent in 0.0006804466247558594 
+2024-05-30 13:36:35,475 write_send.py [line:75] main INFO The encryption time of 1 data is 0.25324177742004395 
+2024-05-30 13:36:36,022 write_send.py [line:96] main INFO 1 pieces of data are sent in 0.0006403923034667969 

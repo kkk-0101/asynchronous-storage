@@ -76,7 +76,7 @@ class NetworkClient (Process):
         if self.ip == '127.0.0.1':
             #if self.id == 1:
                 #print("self.port + j + 1----",self.port + j + 1)
-            sock.bind((self.ip, self.port + j + 8 + 1))
+            sock.bind((self.ip, self.port + j + 12 + 1))
         try:
             sock.connect(self.addresses_list[j])
             self.socks[j] = sock

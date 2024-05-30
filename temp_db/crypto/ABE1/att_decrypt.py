@@ -12,6 +12,8 @@ from charm.toolbox.pairinggroup import PairingGroup, ZR, G1, G2, GT, pair
 from ABE.msp import MSP
 import pickle
 
+from unpack_struct import attribute_unpack
+
 BS = 16
 def pad(s): return s + (BS - len(s) % BS) * chr(BS - len(s) % BS)
 def unpad(s): return s[:-ord(s[len(s)-1:])]
@@ -105,8 +107,7 @@ def aes_decrypt(key, enc):
 
 def decrypt(attr_list, m):
     (pk, msk) = out_key()
-    ctxt = m[0]
-    encryption = m[1]
+    ctxt, encryption = attribute_unpack(m)
     pairing_group = PairingGroup('SS512')
     cpabe = AC17CPABE(pairing_group, 2)
     key = cpabe.keygen(pk, msk, attr_list)

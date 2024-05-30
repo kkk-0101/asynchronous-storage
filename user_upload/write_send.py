@@ -3,7 +3,7 @@ import socket
 import threading
 from access_control import _Attribute, _Broadcast, _Threshold
 from data_generation import tx_generator
-from log import write_time_log
+from logpy import write_time_log
 from pack import get_len
 
 n = 1
@@ -25,7 +25,7 @@ def Client_send(host, port, tx):
 def main():
     N = 4
     mes_addresses = [None] * N
-    with open('../user_client/hosts_message.config', 'r') as hosts:
+    with open('./hosts_message.config', 'r') as hosts:
         for line in hosts:
             params = line.split()
             pid = int(params[0])
@@ -40,8 +40,8 @@ def main():
 
     threads = []
 
-    id = 2
-    k = 3
+    id = 1
+    k = 1
     b = [None] * (n + 10)
 
     for i in range(n):

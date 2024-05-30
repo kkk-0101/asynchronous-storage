@@ -11,19 +11,19 @@ def hash(x):
 
 def _write(i, key, m):
     try:
-        path = "./db3/db3" + str(i)
+        path = "./db/db" + str(i)
         #print("key----"+key)
         db = leveldb.LevelDB(path)
         db.Put(key, m)
         #print(db3.Get(key ).decode('utf-8'))
     except:
-        print("db3 NO write ",m)
+        print("db NO write ",path)
     
 def _read(i, key):
     try:
-        path = "./db3/db3" + str(i)
+        path = "./db/db" + str(i)
         db = leveldb.LevelDB(path)
         m = db.Get(key)
         return m
     except:
-        print("dn NO read ",key)
+        print("db NO read ",key)

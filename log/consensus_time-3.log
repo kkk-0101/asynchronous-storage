@@ -1,0 +1,2 @@
+2024-05-30 13:11:38,789 dumbo.py [line:422] run_bft INFO The consensus run time of Round 0 is 0.06246614456176758 and the total run time is 0.06246614456176758. 1 data consensus is complete. 
+2024-05-30 13:11:38,869 dumbo.py [line:247] db_client INFO 1---0.0014958381652832031 

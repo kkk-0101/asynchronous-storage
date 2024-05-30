@@ -10,15 +10,15 @@ from Server_receipt_db import dbServer
 from multiprocessing import Value as mpValue, Queue as mpQueue
 import requests
 import json
-from requests_toolbelt import MultipartEncoder
+#from requests_toolbelt import MultipartEncoder
 import logging
 import os
 from crypto.threshold._threshold import share_unpack, Threshold_decryption
-from unpack_struct import db_unpack
+from unpack_struct import db_unpack, broadcast_uppack
 from crypto.broadcast.generateBroadcastkeys import Broadcast_decryption
 from crypto.ABE1.att_decrypt import *
 
-ress = 0
+ress = 1
 
 
 def chain_time_log():
@@ -44,7 +44,8 @@ def _hash(x):
     return hashlib.sha256(x).digest()
 
 def b_en(cm):
-    mm = Broadcast_decryption(3, cm)
+    m = broadcast_uppack(cm)
+    mm = Broadcast_decryption(3, m)
 
 def a_en(cm):
     attr_list = ['ONE', 'TWO', 'THREE']
@@ -136,7 +137,7 @@ def main():
                     continue
 
                 if tx_h not in db_map:
-                    db_map[tx_h] = tx
+                    db_map[tx_h] = cm
 
                 if tx_h not in db_cnt:
                     db_cnt[tx_h] = 1
@@ -146,7 +147,7 @@ def main():
                         _tx = db_map[tx_h]
 
                         t1 = time.time()
-                        a_en(hm, _tx)
+                        a_en(_tx)
                         t2 = time.time()
                         _time += t2-t1
                         res += 1
@@ -166,7 +167,7 @@ def main():
                     continue
 
                 if tx_h not in db_map:
-                    db_map[tx_h] = tx
+                    db_map[tx_h] = cm
 
                 if tx_h not in db_cnt:
                     db_cnt[tx_h] = 1
@@ -176,7 +177,7 @@ def main():
                         _tx = db_map[tx_h]
 
                         t1 = time.time()
-                        b_en(hm, _tx)
+                        b_en(_tx)
                         t2 = time.time()
                         _time += t2-t1
                         res += 1

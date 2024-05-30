@@ -2,7 +2,7 @@ from Crypto import Random
 from Crypto.Cipher import AES
 from charm.toolbox.pairinggroup import PairingGroup, GT
 import pickle
-from user_download.crypto.attribute.ac17 import AC17CPABE
+from crypto.attribute.ac17 import AC17CPABE
 
 BS = 16
 def pad(s): return s + (BS - len(s) % BS) * chr(BS - len(s) % BS)

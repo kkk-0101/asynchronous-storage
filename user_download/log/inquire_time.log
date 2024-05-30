@@ -1,0 +1,15 @@
+2024-05-30 13:24:41,907 inquire_chain.py [line:62] main INFO chain--- 1 --- 0.07845091819763184 
+2024-05-30 13:26:53,072 inquire_chain.py [line:78] main INFO sgx 1 --- 131.16530799865723 
+2024-05-30 13:26:53,073 inquire_chain.py [line:102] main INFO The time for a user to inquire 1 data is 0.0002434253692626953 
+2024-05-30 13:38:22,510 inquire_chain.py [line:62] main INFO chain--- 1 --- 0.07178926467895508 
+2024-05-30 13:38:22,745 inquire_chain.py [line:78] main INFO sgx 1 --- 0.23469805717468262 
+2024-05-30 13:38:24,422 inquire_chain.py [line:102] main INFO The time for a user to inquire 1 data is 0.0006220340728759766 
+2024-05-30 13:38:38,844 inquire_chain.py [line:62] main INFO chain--- 1 --- 0.07082009315490723 
+2024-05-30 13:38:39,093 inquire_chain.py [line:78] main INFO sgx 1 --- 0.24855995178222656 
+2024-05-30 13:38:40,390 inquire_chain.py [line:102] main INFO The time for a user to inquire 1 data is 0.0007188320159912109 
+2024-05-30 13:41:08,371 inquire_chain.py [line:62] main INFO chain--- 1 --- 0.06662392616271973 
+2024-05-30 13:41:08,621 inquire_chain.py [line:78] main INFO sgx 1 --- 0.24970436096191406 
+2024-05-30 13:41:08,921 inquire_chain.py [line:102] main INFO The time for a user to inquire 1 data is 0.0006017684936523438 
+2024-05-30 13:42:27,892 inquire_chain.py [line:62] main INFO chain--- 1 --- 0.07304525375366211 
+2024-05-30 13:42:28,135 inquire_chain.py [line:78] main INFO sgx 1 --- 0.2423100471496582 
+2024-05-30 13:42:29,104 inquire_chain.py [line:102] main INFO The time for a user to inquire 1 data is 0.0007691383361816406 

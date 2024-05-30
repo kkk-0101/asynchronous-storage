@@ -2,12 +2,12 @@ import socket
 import time
 import threading
 from pack import get_len
-from log import inquire_time_log
+from logpy import inquire_time_log
 from chain import query_chain
 from enhm import hm_encrypt
 
-id = 2
-n = 10
+id = 1
+n = 1
 
 txs = [None] * (n + 10)
 bufs = [None] * (n + 10)
@@ -27,7 +27,7 @@ def Client_send(host, port, tx):
 def main():
     N = 4
     mes_addresses = [None] * N
-    with open('../user_client/hosts_message.config', 'r') as hosts:
+    with open('./hosts_message.config', 'r') as hosts:
         for line in hosts:
             params = line.split()
             pid = int(params[0])

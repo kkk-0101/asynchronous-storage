@@ -5,6 +5,9 @@ from responseSGX.routes import index
 
 
 def sgx(tyke, sec_ACL, cACL):
+    response = index(tyke, sec_ACL, cACL)
+    return response
+    '''
     try:
         url = 'http://39.105.219.78:8000/sgx'
         data = {'tyke': tyke, 'sec_ACL': sec_ACL, 'cACL': cACL}
@@ -17,4 +20,5 @@ def sgx(tyke, sec_ACL, cACL):
         print("Unable to access SGX===")
         response = index(tyke, sec_ACL, cACL)
         return response
-        return False
+    '''
+        

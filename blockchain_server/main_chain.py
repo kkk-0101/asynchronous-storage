@@ -44,7 +44,7 @@ def cochain(tx, cn):
     print("=========== 文件元信息上链 ===========")
     fields = json.loads(tx.decode())
 
-    res = requests.post('http://119.29.232.209:9090/fabric/setData', data=fields)
+    res = requests.post('http://182.254.135.172:9090/fabric/setData', data=fields)
     res = str(res) + "---" + str(cn) + "---" + str(time.time() - _time)
     timelog = chain_time_log()
     timelog.info(res)
