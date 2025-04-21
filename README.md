@@ -1,4 +1,4 @@
-#FACOS: Enabling Privacy Protection ThroughFine-Grained Access Control With On-Chainand Off-Chain System
+The code base of the paper "FACOS: Enabling Privacy Protection through Fine-grained Access Control With On-Chainand Off-Chain System" is continuously updated
 1. To run the benchmarks at your machine (with Ubuntu 20.04 LTS), first install all dependencies as follows:
     ```
     sudo apt-get update
